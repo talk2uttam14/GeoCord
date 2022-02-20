@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GeoCord'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GeoCord.'
+  s.summary          = 'A short description of GeoCord where you can geocode and reversegeocode '
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,20 +17,25 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Yuc can Get Address and Geo cordinates'
 
-  s.homepage         = 'https://github.com/Talk@uttam14/GeoCord'
+  s.homepage         = 'https://github.com/talk2uttam14/GeoCord'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Talk@uttam14' => 'deyuttamkumar786@gmail.com' }
-  s.source           = { :git => 'https://github.com/Talk@uttam14/GeoCord.git', :tag => s.version.to_s }
+  s.author           = { 'talk2uttam14' => 'deyuttamkumar786@gmail.com' }
+  s.source           = { :git => 'https://github.com/talk2uttam14/GeoCord.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'GeoCord/Classes/**/*'
+  s.source_files = 'Classes/**/*'
+  s.swift_version='5.0'
+   s.pod_target_xcconfig = {
+     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+   }
+   s.user_target_xcconfig = {
+     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+   }
   
   # s.resource_bundles = {
   #   'GeoCord' => ['GeoCord/Assets/*.png']

@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  GeoCord
 //
-//  Created by Talk@uttam14 on 02/19/2022.
-//  Copyright (c) 2022 Talk@uttam14. All rights reserved.
+//  Created by talk2uttam14 on 02/19/2022.
+//  Copyright (c) 2022 talk2uttam14. All rights reserved.
 //
 
 import UIKit

@@ -1,6 +1,6 @@
 # GeoCord
 
-[![CI Status](https://img.shields.io/travis/Talk@uttam14/GeoCord.svg?style=flat)](https://travis-ci.org/Talk@uttam14/GeoCord)
+[![CI Status](https://img.shields.io/travis/talk2uttam14/GeoCord.svg?style=flat)](https://travis-ci.org/talk2uttam14/GeoCord)
 [![Version](https://img.shields.io/cocoapods/v/GeoCord.svg?style=flat)](https://cocoapods.org/pods/GeoCord)
 [![License](https://img.shields.io/cocoapods/l/GeoCord.svg?style=flat)](https://cocoapods.org/pods/GeoCord)
 [![Platform](https://img.shields.io/cocoapods/p/GeoCord.svg?style=flat)](https://cocoapods.org/pods/GeoCord)
@@ -22,7 +22,7 @@ pod 'GeoCord'
 
 ## Author
 
-Talk@uttam14, deyuttamkumar786@gmail.com
+talk2uttam14, deyuttamkumar786@gmail.com
 
 ## License
 
