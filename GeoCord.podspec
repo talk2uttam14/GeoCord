@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GeoCord'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GeoCord where you can geocode and reversegeocode '
+  s.summary          = 'My First Repository on Geocording'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
